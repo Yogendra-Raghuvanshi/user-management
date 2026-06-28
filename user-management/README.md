@@ -1,16 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# User Management System
 
-Currently, two official plugins are available:
+A simple React application to manage users. It allows you to add, edit, delete, and search users. The data is stored in Local Storage, so it remains available after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- View users in a table
+- Add a new user
+- Edit user details
+- Delete user with confirmation
+- Search users by name
+- Email validation
+- Active/Inactive status
+- Responsive design
+- Loader and toast messages
+- Local Storage support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+- React.js
+- JavaScript
+- CSS
+- React Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Yogendra-Raghuvanshi/user-management.git
+```
+
+2. Go to the project folder
+
+```bash
+cd user-management
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the project
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+│── components/
+│   ├── Loader.jsx
+│   ├── Loader.css
+│   ├── UserForm.jsx
+│   └── UserTable.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Author
+
+**Yogendra Singh Raghuvanshi**
+
+GitHub: https://github.com/Yogendra-Raghuvanshi
